@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      // 添加需要的解析的语法，否则TS会检测出错
+      "es2016",
+      "dom"
+    ]
+  },
+  "include": ["vite.config.ts"]
+}
